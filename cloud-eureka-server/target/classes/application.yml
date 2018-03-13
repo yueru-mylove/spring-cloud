@@ -11,3 +11,4 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://${security.user.name}:${security.user.password}@localhost:${server.port}/eureka/
+    health-check: true
