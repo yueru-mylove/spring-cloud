@@ -1,0 +1,28 @@
+
+server:
+  port: 7996
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/tx
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: cloud-product2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    health-check-url: ${management.context-path}/health
+    status-page-url-path: ${management.context-path}/info
+    # 为使每个ip地址上的服务唯一而为每一个服务生成一个唯一的随机值
+    # spring-cloud为此提供的默认是：
+    # ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}。例如myhost:myappname:8080。
+    instance-id: ${spring.application.name}:${vcap.application.instance-id:${spring.application.instance-id:${random.value}}}
+management:
+  context-path: /cloud-product
+
+
