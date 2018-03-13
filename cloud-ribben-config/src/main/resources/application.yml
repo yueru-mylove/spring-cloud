@@ -1,0 +1,48 @@
+# 从版本1.2.0开始，Spring Cloud Netflix现在支持使用属性与Ribbon文档兼容来自定义Ribbon客户端。
+#  这允许您在不同环境中更改启动时的行为。
+# 支持的属性如下所示，应以<clientName>.ribbon.为前缀：
+# NFLoadBalancerClassName：应实施ILoadBalancer
+# NFLoadBalancerRuleClassName：应实施IRule
+# NFLoadBalancerPingClassName：应实施IPing
+# NIWSServerListClassName：应实施ServerList
+# NIWSServerListFilterClassName应实施ServerListFilter
+# 注意
+# 在这些属性中定义的类优先于使用@RibbonClient(configuration=MyRibbonConfig.class)定义的bean和由Spring Cloud Netflix提供的默认值。
+# 要设置服务名称users的IRule，您可以设置以下内容：
+# application.yml
+# users:
+# ribbon:
+# NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
+spring:
+  application:
+    name: cloud-ribben-config
+server:
+  port: 7899
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8761/eureka/
+    health-check:
+      enabled: true
+  instance:
+    prefer-ip-address: true
+# 禁用eureka server
+ribbon:
+  eureka:
+    enabled: false
+
+# 声明该服务的server list
+cloud-product2:
+  ribbon:
+    # NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    listOfServers: localhost:7996
+#  =======7997
+#  =======7996
+#  =======7996
+#  =======7997
+#  =======7996
+#  =======7997
+#  =======7997
+#  =======7997
+#  =======7997
+#  =======7997

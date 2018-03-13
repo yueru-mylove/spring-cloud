@@ -1,6 +1,6 @@
 
 server:
-  port: 7996
+  port: 7997
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
