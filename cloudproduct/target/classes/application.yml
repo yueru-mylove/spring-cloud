@@ -1,6 +1,6 @@
 
 server:
-  port: 7997
+  port: 7999
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -24,5 +24,8 @@ eureka:
     instance-id: ${spring.application.name}:${vcap.application.instance-id:${spring.application.instance-id:${random.value}}}
 management:
   context-path: /cloud-product
-
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.miracle.cloud.bean
+  config-location: classpath:mybatis/mybatis-config.xml
 

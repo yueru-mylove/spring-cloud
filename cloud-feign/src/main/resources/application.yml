@@ -1,0 +1,9 @@
+server:
+  port: 8099
+spring:
+  application:
+    name: cloud-feign
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${vcap.application.instance-id:${spring.application.instance-id:${random.value}}}
