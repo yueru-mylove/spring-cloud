@@ -15,7 +15,10 @@ eureka:
     service-url:
       defaultZone: http://${security.user.name}:${security.user.password}@localhost:${server.port}/eureka/
     health-check: true
-
+  # server端自我保护机制，
+  server:
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 4000
 
 # 该模式下需要配置window下的hosts文件，设置主机名称为peer1 peer2
 # 添加Spring Security之后，如果不设置账号密码，会随机生成一个密码
