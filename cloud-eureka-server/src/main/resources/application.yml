@@ -1,3 +1,4 @@
+# Standalone Eureka Server 单机模式
 server:
   port: 8761
 
@@ -6,9 +7,38 @@ security:
     name: root
     password: 123456
 eureka:
+  environment: product
+  datacenter: cloud
   client:
     fetch-registry: false
     register-with-eureka: false
     service-url:
       defaultZone: http://${security.user.name}:${security.user.password}@localhost:${server.port}/eureka/
     health-check: true
+  # server端自我保护机制，
+  server:
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 4000
+
+# 该模式下需要配置window下的hosts文件，设置主机名称为peer1 peer2
+# 添加Spring Security之后，如果不设置账号密码，会随机生成一个密码
+# 高可用模式 Two Peer Eureka Server
+
+# spring:
+#    profiles: peer1
+#  eureka:
+#    instance:
+#      hostname: peer1
+#    client:
+#      serviceUrl:
+#        defaultZone: http://peer2/eureka/
+#
+#  ---
+#  spring:
+#    profiles: peer2
+#  eureka:
+#    instance:
+#      hostname: peer2
+#    client:
+#      serviceUrl:
+#        defaultZone: http://peer1/eureka/

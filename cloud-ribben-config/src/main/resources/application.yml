@@ -46,3 +46,6 @@ cloud-product2:
 #  =======7997
 #  =======7997
 #  =======7997
+
+# riboon使用注意事项： Configuration 与ComponentScan， Configuration不应该配置在主启动类的扫描包下
+# 想要使用restTemplate获取一个list时，需要使用对象数组进行获取，而不能使用list集合，因为泛型无法使用，会报出类型转换异常

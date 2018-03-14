@@ -9,11 +9,12 @@ spring:
     url: jdbc:mysql://localhost:3306/tx
     driver-class-name: com.mysql.jdbc.Driver
   application:
-    name: cloud-product2
+    name: cloud-product
 eureka:
   client:
     service-url:
       defaultZone: http://root:123456@localhost:8761/eureka/
+
   instance:
     prefer-ip-address: true
     health-check-url: ${management.context-path}/health
@@ -22,6 +23,10 @@ eureka:
     # spring-cloud为此提供的默认是：
     # ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}。例如myhost:myappname:8080。
     instance-id: ${spring.application.name}:${vcap.application.instance-id:${spring.application.instance-id:${random.value}}}
+    # 租期更新时间间隔
+    lease-renewal-interval-in-seconds: 30
+    # 租期到期时间间隔
+    lease-expiration-duration-in-seconds: 90
 management:
   context-path: /cloud-product
 mybatis:

@@ -53,3 +53,8 @@ hystrix:
 # Feign.Builder feignBuilder：HystrixFeign.Builder
 # Client feignClient：如果Ribbon启用，则为LoadBalancerFeignClient，否则将使用默认的feign客户端。
 # 可以通过将feign.okhttp.enabled或feign.httpclient.enabled设置为true，并将它们放在类路径上来使用OkHttpClient和ApacheHttpClient feign客户端。
+
+# 与Ribbon相同，配置类Configuration应当避免与SpringBoot启动类放在同一个包下，避免被Spring扫描到
+# FeignClient的接口中，不能使用GetMapping等组合注解
+# 使用@PathVariable注解时，应当指定其参数
+# Feign暂不支持复杂对象作为参数

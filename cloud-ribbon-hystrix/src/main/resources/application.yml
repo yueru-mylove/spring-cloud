@@ -1,0 +1,15 @@
+server:
+  port: 8999
+  application:
+    name: cloud-ribbon-hystrix
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8761/eureka/
+
+  instance:
+    prefer-ip-address: true
+    # 为使每个ip地址上的服务唯一而为每一个服务生成一个唯一的随机值
+    # spring-cloud为此提供的默认是：
+    # ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}。例如myhost:myappname:8080。
+    instance-id: ${spring.application.name}:${vcap.application.instance-id:${spring.application.instance-id:${random.value}}}
