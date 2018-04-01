@@ -19,7 +19,7 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 # To disable Hystrix in Feign: 禁用Feign内置熔断器
 feign:
   hystrix:
-    enabled: false
+    enabled: true
 
 # To set thread isolation to SEMAPHORE： 设置线程隔离级别，后续研究
 hystrix:
@@ -27,7 +27,10 @@ hystrix:
     default:
       execution:
         isolation:
-          strategy: SEMAPHORE
+          strategy: Thread
+
+# 禁用单个FeignClient的Hystrix支持
+# 请参考：FeignEurekaConfiguration
 
 
 

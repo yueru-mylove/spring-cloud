@@ -13,3 +13,5 @@ eureka:
 spring:
   application:
     name: cloud-ribbon-hystrix
+
+

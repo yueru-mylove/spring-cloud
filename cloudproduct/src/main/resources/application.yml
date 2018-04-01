@@ -33,4 +33,8 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   type-aliases-package: com.miracle.cloud.bean
   config-location: classpath:mybatis/mybatis-config.xml
-
+logging:
+  level:
+    root: info
+    com.miracle.cloud.controller: debug
+    com.miracle.cloud.dao: debug

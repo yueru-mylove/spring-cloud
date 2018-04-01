@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: cloud_config
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: cloud-config-server
+      profile: master
+      username: root
+      password: 123456
+  # 自动刷新需要继承AMQP， （rabbitmq或者kafka都可以）
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

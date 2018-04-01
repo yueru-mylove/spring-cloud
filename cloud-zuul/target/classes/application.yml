@@ -1,0 +1,121 @@
+
+server:
+  port: 8799
+spring:
+  application:
+    name: cloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    # /* 只支持一层匹配 /**支持多层匹配
+    # cloud-product: /product/**
+    # 细粒度控制
+    cloud-product: # 这个位置可以随意命名
+      path: /product/**
+      # sensitiveHeaders: private Set<String> sensitiveHeaders = new LinkedHashSet<>(Arrays.asList("Cookie", "Set-Cookie", "Authorization"));
+      strip-prefix: true  # 默认true
+    cloud-file-upload:
+      path: /file/upload/**
+      service-id: cloud-file-upload
+  #部分敏感的httpheaders，网关不想将它传递到浏览器，不传播到下端的服务
+  # sensitive-headers:
+  # prefix: /api
+  # strip-prefix: false 这个作用暂时不太清楚。留待解决
+# url: http://localhost:7999/ # url控制，使用此功能不能使用ribbon负载均衡
+# 如果需要使用负载均衡，需要禁用eureka server， 并配置serverList列表, 不能使用url进行serviceId
+#ribbon:
+#  eureka:
+#    enabled: false
+#cloud-product:
+#  ribbon:
+#    listOfServers: http://localhost:7999, http://localhost:7998     # 服务URL列表
+
+management:
+  security:
+    enabled: false
+
+# 使用/zuul/**网关越过Spring DIspatcherServlet分发请求，但此处应当设置请求的响应时间；
+# 基于zuul的文件上传， http://localhost:8799/zuul/file/upload/index.html
+# /zuul/** 的访问请求将会越过springmvc dispatcherservlet，
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+ribbon:
+  connection-timeout: 3000
+  read-timeout: 60000
+
+#zuul:
+#  ignoredPatterns: /**/admin/**  # 忽略所有该请求
+#  routes:
+#    cloud-product: /product/**
+
+# 要使用一下配置，请使用yml配置文件，使用properties配置文件将无法实现路由先后顺序
+#zuul:
+#  routes:
+#    cloud-product:
+#      path: /product/** 对所有该服务匹配网关路径
+#    legacy:
+#      path: /**  对其他服务使用该路径，遗留服务路径
+
+# zuul默认使用httpclient：要使用okhttp或者其他Ribbon-restclient请使用以下配置：
+# ribbon.restclient.enabled=true   ribbon.okhttp.enabled=true
+
+# List of sensitive headers that are not passed to downstream requests. Defaults to a
+# "safe" set of headers that commonly contain user credentials. It's OK to remove
+# those from the list if the downstream service is part of the same system as the
+# proxy, so they are sharing authentication data. If using a physical URL outside
+# your own domain, then generally it would be a bad idea to leak user credentials.
+#  sensitiveHeaders: private Set<String> sensitiveHeaders = new LinkedHashSet<>(Arrays.asList("Cookie", "Set-Cookie", "Authorization"));
+
+# /routes /filters  路由节点和过滤器信息
+# 要监控路由和过滤器节点，请添加spring-security依赖，并配置username和password，否则请设置management.secirity.enabled=false;
+
+
+# Strangulation Patterns and Local Forwards 绞杀者模式和本地转发
+# 迁移模式和本地转发
+# zuul:
+#  routes:
+#    first:
+#      path: /first/**
+#      url: http://first.example.com
+#    second:
+#      path: /second/**
+#      url: forward:/second   本地转发:转发到本地@RequestMapping(“/second”)注解标准
+#    third:
+#      path: /third/**
+#      url: forward:/3rd      本地转发:转发到本地@RequestMapping(“/3rd”)注解标准
+#    legacy:
+#      path: /**
+#      url: http://legacy.example.com  未迁移残余服务地址匹配
+
+# 有关更多zuul过滤器和routes详细及源码实现请参阅简书: https://www.jianshu.com/notifications#/chats
+
+# @EnableZuulServer相比于@EnableZuulProxy更加轻量级和自由化，不含有任何的Filter
+# @EnableZuulProxy的所有Filters
+#{"error":[{"class":"org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter","order":0,"disabled":false,"static":true}],
+#"post":[{"class":"org.springframework.cloud.netflix.zuul.filters.post.SendResponseFilter","order":1000,"disabled":false,"static":true}],
+#"pre":[{"class":"org.springframework.cloud.netflix.zuul.filters.pre.DebugFilter","order":1,"disabled":false,"static":true},
+#{"class":"org.springframework.cloud.netflix.zuul.filters.pre.FormBodyWrapperFilter","order":-1,"disabled":false,"static":true},
+#{"class":"org.springframework.cloud.netflix.zuul.filters.pre.Servlet30WrapperFilter","order":-2,"disabled":false,"static":true},
+#{"class":"org.springframework.cloud.netflix.zuul.filters.pre.ServletDetectionFilter","order":-3,"disabled":false,"static":true},
+#{"class":"org.springframework.cloud.netflix.zuul.filters.pre.PreDecorationFilter","order":5,"disabled":false,"static":true}],
+#"route":[{"class":"org.springframework.cloud.netflix.zuul.filters.route.SimpleHostRoutingFilter","order":100,"disabled":false,"static":true},
+#{"class":"org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter","order":10,"disabled":false,"static":true},
+#{"class":"org.springframework.cloud.netflix.zuul.filters.route.SendForwardFilter","order":500,"disabled":false,"static":true}]}
+
+# 禁用zuul的filters； zuul.<SimpleClassName>.<filterType>.disable=true
+# example
+# For example to disable org.springframework.cloud.netflix.zuul.filters.post.SendResponseFilter
+# set zuul.SendResponseFilter.post.disable=true.
+
+
+# zuul fallback机制： 经过zuul的请求都会经过hystrix wrapper，因此可以借此实现hystrix的fallback机制

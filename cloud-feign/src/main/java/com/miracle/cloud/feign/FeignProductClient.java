@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(name = "cloud-product2", configuration = CustomizedFeignConfiguration.class)
+@FeignClient(name = "cloud-product", configuration = CustomizedFeignConfiguration.class, fallback = FeignHystrixFallback.class)
 public interface FeignProductClient {
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)

@@ -2,16 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187822a1-602a-404d-b388-fdc8d5afc84a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/miracle/cloud/bean/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/miracle/cloud/controller/UserController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-eureka-server/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-eureka-server/src/main/java/com/miracle/cloud/config/TestClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_7_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_7_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_netty_netty_buffer_4_0_27_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_netty_netty_codec_4_0_27_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_27_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_netty_netty_common_4_0_27_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_netty_netty_handler_4_0_27_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_netty_netty_transport_4_0_27_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_27_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_reactivex_rxjava_1_2_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/cloud-feign-hystrixfactory.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/java/com/FeignHystrixFactoryServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/java/com/miracle/cloud/bean/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/java/com/miracle/cloud/configuration/UserFeignConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/java/com/miracle/cloud/controller/UserController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/java/com/miracle/cloud/feign/UserFeignClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/java/com/miracle/cloud/hystrixfactory/UserFeignClientFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/java/com/miracle/cloud/hystrixfactory/UserFeignHystrixFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/config/FeignEurekaConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/feign/FeignEurekaClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/feign/FeignEurekaFallback.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/feign/FeignHystrixFallback.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-hystrix-turbine/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-hystrix-turbine/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-hystrix-turbine/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloud-hystrix-turbine/cloud-hystrix-turbine.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_27_incubating.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_dashboard_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_turbine_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/miracle/cloud/configuration/CusHystrixConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../cloudproduct/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/../cloud-eureka-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cloud-eureka-server/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../cloud-eureka-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/../cloud-eureka-server/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_5.xml" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_5.xml" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_26.xml" afterPath="$PROJECT_DIR$/../cloud-feign-hystrixfactory/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" />
       <change beforePath="$PROJECT_DIR$/../cloud-feign/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cloud-feign/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/cloud-feign.iml" afterPath="$PROJECT_DIR$/../cloud-feign/cloud-feign.iml" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/pom.xml" afterPath="$PROJECT_DIR$/../cloud-feign/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/FeignAPP.java" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/FeignAPP.java" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/controller/FooController.java" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/controller/FooController.java" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/controller/UserController.java" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/feign/FeignProductClient.java" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/java/com/miracle/cloud/feign/FeignProductClient.java" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../cloud-feign/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/target/classes/application.yml" afterPath="$PROJECT_DIR$/../cloud-feign/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/target/classes/com/FeignAPP.class" afterPath="$PROJECT_DIR$/../cloud-feign/target/classes/com/FeignAPP.class" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/config/CustomizedFeignConfiguration.class" afterPath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/config/CustomizedFeignConfiguration.class" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/config/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/controller/FooController.class" afterPath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/controller/FooController.class" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/controller/UserController.class" afterPath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/feign/FeignProductClient.class" afterPath="$PROJECT_DIR$/../cloud-feign/target/classes/com/miracle/cloud/feign/FeignProductClient.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cloud-ribbon-hystrix.iml" afterPath="$PROJECT_DIR$/cloud-ribbon-hystrix.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/RibbonHystrixServer.class" afterPath="$PROJECT_DIR$/target/classes/com/RibbonHystrixServer.class" />
       <change beforePath="$PROJECT_DIR$/../cloudproduct/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cloudproduct/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../cloudproduct/target/classes/application.yml" afterPath="$PROJECT_DIR$/../cloudproduct/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/../cloudproduct/src/main/java/com/miracle/cloud/controller/DemoController.java" afterPath="$PROJECT_DIR$/../cloudproduct/src/main/java/com/miracle/cloud/controller/DemoController.java" />
+      <change beforePath="$PROJECT_DIR$/../cloudproduct/target/classes/com/miracle/cloud/controller/DemoController.class" afterPath="$PROJECT_DIR$/../cloudproduct/target/classes/com/miracle/cloud/controller/DemoController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,12 +216,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="581">
+              <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -37,8 +240,8 @@
       <file leaf-file-name="RibbonHystrixServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="128">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +252,24 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="68" />
+            <state relative-caret-position="400">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CusHystrixConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/configuration/CusHystrixConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +295,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/miracle/cloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miracle/cloud/configuration/CusHystrixConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
@@ -143,7 +361,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -159,6 +379,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,16 +435,39 @@
             </path>
             <path>
               <item name="cloud-ribbon-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="cloud-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miracle" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-ribbon-hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="miracle" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-ribbon-hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +548,7 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="RibbonHystrixServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RibbonHystrixServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -311,6 +556,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.RibbonHystrixServer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="cloud-ribbon-hystrix" />
       <envs />
     </configuration>
@@ -367,47 +613,49 @@
       <option name="presentableId" value="Default" />
       <updated>1521045528547</updated>
       <workItem from="1521045532992" duration="1930000" />
+      <workItem from="1521087699343" duration="3105000" />
+      <workItem from="1521197638438" duration="6236000" />
+      <workItem from="1521250466061" duration="2720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1930000" />
+    <option name="totallyTimeSpent" value="13991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,27 +671,140 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="736">
+          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="48">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/configuration/CusHystrixConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.miracle.cloud.configuration.CusHystrixConfig">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.miracle.cloud.configuration.CusHystrixConfig</OriginalElement>
+          <nodes>
+            <node x="172.74999999999997" y="243.0">com.netflix.hystrix.HystrixCommand</node>
+            <node x="188.99999999999997" y="81.0">com.netflix.hystrix.HystrixObservable</node>
+            <node x="0.0" y="81.0">com.netflix.hystrix.HystrixInvokableInfo</node>
+            <node x="98.37499999999997" y="162.0">com.netflix.hystrix.AbstractCommand</node>
+            <node x="365.0" y="81.0">com.netflix.hystrix.HystrixExecutable</node>
+            <node x="173.24999999999997" y="324.0">com.miracle.cloud.configuration.CusHystrixConfig</node>
+            <node x="281.92499999999995" y="0.0">com.netflix.hystrix.HystrixInvokable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixExecutable">
+              <point x="55.875" y="-15.5" />
+              <point x="303.125" y="223.0" />
+              <point x="440.5" y="223.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
+              <point x="-55.875" y="-15.5" />
+              <point x="191.37499999999997" y="223.0" />
+              <point x="59.49999999999997" y="223.0" />
+              <point x="59.49999999999997" y="137.0" />
+              <point x="42.25" y="137.0" />
+              <point x="-42.25" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixObservable">
+              <point x="39.5" y="-15.5" />
+              <point x="216.87499999999997" y="137.0" />
+              <point x="227.99999999999997" y="137.0" />
+              <point x="-39.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
+              <point x="-39.5" y="-15.5" />
+              <point x="137.87499999999997" y="137.0" />
+              <point x="126.75" y="137.0" />
+              <point x="42.25" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixExecutable" target="com.netflix.hystrix.HystrixInvokable">
+              <point x="0.0" y="-15.5" />
+              <point x="440.5" y="56.0" />
+              <point x="391.42499999999995" y="56.0" />
+              <point x="36.5" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixObservable">
+              <point x="18.625" y="-15.5" />
+              <point x="265.875" y="223.0" />
+              <point x="292.0" y="223.0" />
+              <point x="292.0" y="137.0" />
+              <point x="306.0" y="137.0" />
+              <point x="39.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.AbstractCommand">
+              <point x="-18.625" y="-15.5" />
+              <point x="228.62499999999997" y="213.0" />
+              <point x="177.37499999999997" y="213.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixObservable" target="com.netflix.hystrix.HystrixInvokable">
+              <point x="0.0" y="-15.5" />
+              <point x="267.0" y="56.0" />
+              <point x="318.42499999999995" y="56.0" />
+              <point x="-36.5" y="15.5" />
+            </edge>
+            <edge source="com.miracle.cloud.configuration.CusHystrixConfig" target="com.netflix.hystrix.HystrixCommand">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8955223880597015" x="258.0" y="177.5" />
+          <SelectedNodes>
+            <node>com.netflix.hystrix.HystrixInvokable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -455,10 +816,281 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="288">
+          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/configuration/CusHystrixConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.miracle.cloud.configuration.CusHystrixConfig">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.miracle.cloud.configuration.CusHystrixConfig</OriginalElement>
+          <nodes>
+            <node x="172.74999999999997" y="243.0">com.netflix.hystrix.HystrixCommand</node>
+            <node x="188.99999999999997" y="81.0">com.netflix.hystrix.HystrixObservable</node>
+            <node x="0.0" y="81.0">com.netflix.hystrix.HystrixInvokableInfo</node>
+            <node x="365.0" y="81.0">com.netflix.hystrix.HystrixExecutable</node>
+            <node x="98.37499999999997" y="162.0">com.netflix.hystrix.AbstractCommand</node>
+            <node x="173.24999999999997" y="324.0">com.miracle.cloud.configuration.CusHystrixConfig</node>
+            <node x="281.92499999999995" y="0.0">com.netflix.hystrix.HystrixInvokable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixExecutable">
+              <point x="55.875" y="-15.5" />
+              <point x="303.125" y="223.0" />
+              <point x="440.5" y="223.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
+              <point x="-55.875" y="-15.5" />
+              <point x="191.37499999999997" y="223.0" />
+              <point x="59.49999999999997" y="223.0" />
+              <point x="59.49999999999997" y="137.0" />
+              <point x="42.25" y="137.0" />
+              <point x="-42.25" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixObservable">
+              <point x="39.5" y="-15.5" />
+              <point x="216.87499999999997" y="137.0" />
+              <point x="227.99999999999997" y="137.0" />
+              <point x="-39.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
+              <point x="-39.5" y="-15.5" />
+              <point x="137.87499999999997" y="137.0" />
+              <point x="126.75" y="137.0" />
+              <point x="42.25" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixObservable">
+              <point x="18.625" y="-15.5" />
+              <point x="265.875" y="223.0" />
+              <point x="292.0" y="223.0" />
+              <point x="292.0" y="137.0" />
+              <point x="306.0" y="137.0" />
+              <point x="39.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixExecutable" target="com.netflix.hystrix.HystrixInvokable">
+              <point x="0.0" y="-15.5" />
+              <point x="440.5" y="56.0" />
+              <point x="391.42499999999995" y="56.0" />
+              <point x="36.5" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.AbstractCommand">
+              <point x="-18.625" y="-15.5" />
+              <point x="228.62499999999997" y="213.0" />
+              <point x="177.37499999999997" y="213.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixObservable" target="com.netflix.hystrix.HystrixInvokable">
+              <point x="0.0" y="-15.5" />
+              <point x="267.0" y="56.0" />
+              <point x="318.42499999999995" y="56.0" />
+              <point x="-36.5" y="15.5" />
+            </edge>
+            <edge source="com.miracle.cloud.configuration.CusHystrixConfig" target="com.netflix.hystrix.HystrixCommand">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8955223880597015" x="258.0" y="178.0" />
+          <SelectedNodes>
+            <node>com.netflix.hystrix.HystrixInvokable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
           <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.miracle.cloud.configuration.CusHystrixConfig">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.miracle.cloud.configuration.CusHystrixConfig</OriginalElement>
+          <nodes>
+            <node x="172.74999999999997" y="243.0">com.netflix.hystrix.HystrixCommand</node>
+            <node x="188.99999999999997" y="81.0">com.netflix.hystrix.HystrixObservable</node>
+            <node x="0.0" y="81.0">com.netflix.hystrix.HystrixInvokableInfo</node>
+            <node x="98.37499999999997" y="162.0">com.netflix.hystrix.AbstractCommand</node>
+            <node x="365.0" y="81.0">com.netflix.hystrix.HystrixExecutable</node>
+            <node x="173.24999999999997" y="324.0">com.miracle.cloud.configuration.CusHystrixConfig</node>
+            <node x="281.92499999999995" y="0.0">com.netflix.hystrix.HystrixInvokable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixExecutable">
+              <point x="55.875" y="-15.5" />
+              <point x="303.125" y="223.0" />
+              <point x="440.5" y="223.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
+              <point x="-55.875" y="-15.5" />
+              <point x="191.37499999999997" y="223.0" />
+              <point x="59.49999999999997" y="223.0" />
+              <point x="59.49999999999997" y="137.0" />
+              <point x="42.25" y="137.0" />
+              <point x="-42.25" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixObservable">
+              <point x="39.5" y="-15.5" />
+              <point x="216.87499999999997" y="137.0" />
+              <point x="227.99999999999997" y="137.0" />
+              <point x="-39.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
+              <point x="-39.5" y="-15.5" />
+              <point x="137.87499999999997" y="137.0" />
+              <point x="126.75" y="137.0" />
+              <point x="42.25" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixExecutable" target="com.netflix.hystrix.HystrixInvokable">
+              <point x="0.0" y="-15.5" />
+              <point x="440.5" y="56.0" />
+              <point x="391.42499999999995" y="56.0" />
+              <point x="36.5" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixObservable">
+              <point x="18.625" y="-15.5" />
+              <point x="265.875" y="223.0" />
+              <point x="292.0" y="223.0" />
+              <point x="292.0" y="137.0" />
+              <point x="306.0" y="137.0" />
+              <point x="39.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.AbstractCommand">
+              <point x="-18.625" y="-15.5" />
+              <point x="228.62499999999997" y="213.0" />
+              <point x="177.37499999999997" y="213.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixObservable" target="com.netflix.hystrix.HystrixInvokable">
+              <point x="0.0" y="-15.5" />
+              <point x="267.0" y="56.0" />
+              <point x="318.42499999999995" y="56.0" />
+              <point x="-36.5" y="15.5" />
+            </edge>
+            <edge source="com.miracle.cloud.configuration.CusHystrixConfig" target="com.netflix.hystrix.HystrixCommand">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8955223880597015" x="258.0" y="177.5" />
+          <SelectedNodes>
+            <node>com.netflix.hystrix.HystrixInvokable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/configuration/CusHystrixConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/RibbonHystrixServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miracle/cloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

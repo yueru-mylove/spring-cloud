@@ -1,0 +1,16 @@
+server:
+  port: 8899
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: cloud-hystrix-turbine
+turbine:
+  aggregator:
+    cluster-config: default
+  app-config: cloud-ribbon-hystrix, cloud-feign
+  cluster-name-expression: "'default'"

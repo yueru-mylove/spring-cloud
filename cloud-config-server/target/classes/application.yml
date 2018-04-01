@@ -1,0 +1,54 @@
+
+server:
+  port: 8599
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yueru-mylove/cloud-config
+          repos:
+            cloud-config-pro:
+              pattern: cloud_config*/pro*
+              uri: https://github.com/yueru-mylove/cloud-config-pro
+            cloud-config-dev:
+              pattern: cloud_config*/dev*, cloud_config*/test*
+              uri: https://github.com/yueru-mylove/cloud-config-dev
+          search-paths:
+            - pro
+            - dev
+            - test
+          #ignore-local-ssh-settings: true
+          #strict-host-key-checking: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: 123456
+# server.port: 8888
+# spring.cloud.config.server.git.uri: file:///${user.home}/config-repo
+# where ${user.home}/config-repo is a git repository containing YAML and properties files.
+
+# 路径匹配模式，自动去子路径下寻找对应的文件
+# search-paths:
+#  - pro
+#  - dev
+#  - test
+# username: 配置git仓库账号 pasword： 配置git仓库密码
+
+# 占位符模式
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/myorg/{application}
